@@ -1,0 +1,5 @@
+for _, x in pairs(game.Lighting:GetChildren()) do
+    if not x:IsA("Atmosphere") then
+        x:Destroy()
+    end
+end
